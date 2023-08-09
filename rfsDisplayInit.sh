@@ -14,3 +14,6 @@ EOT
 
 sudo sed -i '/MatchIsTouchscreen "on"/a\
 Option "TransformationMatrix" "0 -1 1 1 0 0 0 0 1"' /usr/share/X11/xorg.conf.d/40-libinput.conf
+
+
+sudo reboot
